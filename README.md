@@ -16,8 +16,6 @@ npm install
 npm run dev
 ```
 
-Open the printed local URL (usually `http://localhost:5173`).
-
 ## Build for production
 
 ```bash
@@ -33,18 +31,12 @@ The easiest options for a Vite app:
 
 ### Vercel
 1. Push this project to a public GitHub repo.
-2. Go to [vercel.com](https://vercel.com), "Add New Project", import the repo.
-3. Vercel auto-detects Vite — framework preset "Vite", build command `npm run build`, output directory `dist`. Click Deploy.
+2. Live URL: https://stopwatch-and-timer-app-two.vercel.app/
 
-### Netlify
-1. Push this project to a public GitHub repo.
-2. Go to [app.netlify.com](https://app.netlify.com), "Add new site" → "Import an existing project".
-3. Build command: `npm run build`, publish directory: `dist`. Click Deploy.
 
 ### GitHub Pages
 1. `npm install --save-dev gh-pages`
 2. Add to `package.json` scripts: `"predeploy": "npm run build", "deploy": "gh-pages -d dist"`.
-3. Set `base: '/<your-repo-name>/'` in `vite.config.js`.
 4. Run `npm run deploy`.
 
 ## Publishing to GitHub (for your "Public GitHub repository link" submission)
@@ -54,7 +46,7 @@ git init
 git add .
 git commit -m "Initial commit: stopwatch and timer app"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git remote add origin https://github.com/letscodewithfaisal/Stopwatch-and-Timer-App
 git push -u origin main
 ```
 
